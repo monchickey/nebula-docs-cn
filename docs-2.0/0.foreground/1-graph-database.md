@@ -70,7 +70,7 @@ https://www.marketsandmarkets.com/Market-Reports/graph-database-market-126230231
 
 !!! Info "本小节关于Neo4j和其创造的图查询语言Cypher的历史内容主要摘录自 ISO WG3 的工作论文"An overview of the recent history of Graph Query Languages"[^Tobias2018] 和[^Glang]，本书作者根据最新两年的进展有删减和更新。"
 
-!!! Note "关于图查询查询(Graph Query Language，GQL) 和国际标准的制定"
+!!! Note "关于图查询语言(Graph Query Language，GQL) 和国际标准的制定"
 
     熟悉数据库的读者可能都知道结构化查询语言SQL。通过使用SQL，人们以接近自然语言的方式访问数据库。在 SQL 被广泛采用和标准化之前，关系型数据库的市场是非常碎片和割裂的——各家厂商的产品都有完全不同的接入访问方式，数据库产品自身的开发人员、数据库产品周边工具的开发人员、数据库最终的使用人员，都不得不学习各个厂商的完全不同的产品，在不同产品之间迁移极其困难。当1989年SQL-89标准被制定后，整个关系型数据库的市场快速收敛到SQL-89上。这大大降低了上述各种人员的学习曲线。
 
