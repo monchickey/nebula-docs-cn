@@ -136,7 +136,6 @@ nebula> MATCH (v:player{name:"Tim Duncan"}) --> (v2) \
 | "Manu Ginobili" | 41  |
 +-----------------+-----+
 ```
-
 <!--
 ## 性能提示
 

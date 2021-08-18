@@ -18,7 +18,7 @@ Importer适用于将本地CSV文件的内容导入至Nebula Graph中。
 
 - 已部署Nebula Graph服务。目前有三种部署方式：
   
-  - [Docker Compose部署](../2.quick-start/2.deploy-nebula-graph-with-docker-compose.md)（快速部署）
+  - [Docker Compose部署](../4.deployment-and-installation/2.compile-and-install-nebula-graph/3.deploy-nebula-graph-with-docker-compose.md)
   
   - [RPM/DEB包安装](../4.deployment-and-installation/2.compile-and-install-nebula-graph/2.install-nebula-graph-by-rpm-or-deb.md)
   
@@ -205,7 +205,7 @@ files:
 |参数|默认值|是否必须|说明|
 |:---|:---|:---|:---|
 |`logPath`|-|否|导入过程中的错误等日志信息输出的文件路径。|
-|`files.path`|-|是|数据文件的存放路径，如果使用相对路径，则会将路径和当前配置文件的目录拼接。|
+|`files.path`|-|是|数据文件的存放路径，如果使用相对路径，则会将路径和当前配置文件的目录拼接。可以使用星号（\*）进行模糊匹配，导入多个名称相似的文件，但是文件的结构需要相同。|
 |`files.failDataPath`|-|是|插入失败的数据文件存放路径，以便后面补写数据。|
 |`files.batchSize`|128|否|单批次插入数据的语句数量。|
 |`files.limit`|-|否|读取数据的行数限制。|
