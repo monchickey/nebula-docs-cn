@@ -387,13 +387,13 @@ nav:
   - Nebula Bench: nebula-bench.md
 
   - 附录:
-      - Nebula Graph 常见问题: 20.appendix/0.FAQ.md
       - 生态工具概览: 20.appendix/6.eco-tool-version.md
+      - Nebula Graph 常见问题: 20.appendix/0.FAQ.md
       - 导入工具选择: 20.appendix/write-tools.md
       - 社区参与: 15.contribution/how-to-contribute.md
       - 年表: 20.appendix/20.history.md
-      - 致谢: 20.appendix/21.acknowledgement.md
       - 思维导图: 20.appendix/mind-map.md
+      - 致谢: 20.appendix/21.acknowledgement.md
 
   - PDF: ./pdf/NebulaGraph-CN.pdf
 #  - English Docs: https://docs.nebula-graph.io/
