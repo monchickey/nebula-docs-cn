@@ -1,7 +1,7 @@
 # Project information
 site_name: 开源分布式图数据库 Nebula Graph 完全指南
 site_description: Nebula Graph Database
-site_author: 吴敏,周瑶,梁振亚
+site_author: 吴敏，周瑶，梁振亚，杨怡璇
 docs_dir: docs-2.0
 
 # Configuration
@@ -40,39 +40,45 @@ extra:
   explorer:
     base100: 1.0.0
   exchange:
-    release: master
-    branch: master
+    release: 2.5.0
+    branch: v2.5
   importer:
-    release: master  
+    release: master
+    branch: release-v2.0.0-ga
   algorithm:
-    release: master
+    release: 2.5.0
+    branch: v2.5
   sparkconnector:
-    release: master
-    branch: master
+    release: 2.5.0
+    branch: v2.5
   flinkconnector:
-    release: master
+    release: 2.5.0
+    branch: v2.5
   dockercompose:
-    release: master
+    release: 2.0.1
+    branch: v2.0.1
   common:
     release: master
   dashboard:
     release: master
     base100: 1.0.0
   console:
-    release: master
+    release: 2.0.1
   br:
     release: 0.5.0
   cpp:
     release: 2.5.0
   java:
     release: 2.5.0
+    branch: v2.5.0
   python:
     release: 2.5.0
   go:
     release: 2.5.0
+    branch: release-v2.5.0
   bench:
-    release: master
-    branch: v2.0
+    release: 1.0.0
+    branch: master
   
 nav:
 
@@ -389,6 +395,11 @@ nav:
   - Nebula Bench: nebula-bench.md
 
   - 附录:
+<<<<<<< HEAD
+=======
+      - Release Note: 20.appendix/releasenote.md
+      - 常见问题 FAQ: 20.appendix/0.FAQ.md
+>>>>>>> v2.5.0
       - 生态工具概览: 20.appendix/6.eco-tool-version.md
       - Nebula Graph 常见问题: 20.appendix/0.FAQ.md
       - 导入工具选择: 20.appendix/write-tools.md
