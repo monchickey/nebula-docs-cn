@@ -384,6 +384,7 @@ nav:
       - 导入MaxCompute数据: nebula-exchange/use-exchange/ex-ug-import-from-maxcompute.md
       - 导入Pulsar数据: nebula-exchange/use-exchange/ex-ug-import-from-pulsar.md
       - 导入Kafka数据: nebula-exchange/use-exchange/ex-ug-import-from-kafka.md
+      - 导入SST文件数据: nebula-exchange/use-exchange/ex-ug-import-from-sst.md
     - Exchange 常见问题: nebula-exchange/ex-ug-FAQ.md
 
   - Nebula Algorithm: nebula-algorithm.md
@@ -395,11 +396,8 @@ nav:
   - Nebula Bench: nebula-bench.md
 
   - 附录:
-<<<<<<< HEAD
-=======
       - Release Note: 20.appendix/releasenote.md
       - 常见问题 FAQ: 20.appendix/0.FAQ.md
->>>>>>> v2.5.0
       - 生态工具概览: 20.appendix/6.eco-tool-version.md
       - Nebula Graph 常见问题: 20.appendix/0.FAQ.md
       - 导入工具选择: 20.appendix/write-tools.md

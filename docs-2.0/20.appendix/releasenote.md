@@ -38,7 +38,7 @@
 - 修复db_dump工具打印int类型VID的问题。https://github.com/vesoft-inc/nebula-storage/pull/533
 - 修复balance任务恢复后仍显示FAIL的问题。https://github.com/vesoft-inc/nebula-storage/pull/528
 
-## Change
+## Changes & Known issues
 
 - Subgraph 语法变化
 
@@ -49,3 +49,5 @@
     # 原有语法将只输出图结构
     GET SUBGRAPH FROM <vids>#
     ```
+    
+该版本已知 bug/issue 见 https://github.com/vesoft-inc/nebula-graph/issues

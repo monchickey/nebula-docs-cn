@@ -25,13 +25,20 @@ Graph 完全指南》](https://docs.nebula-graph.com.cn/site/pdf/NebulaGraph-boo
 
 ## 图例说明
 
+
+<!-- 
+本文有 40+ 个 caution。
+本文有 30+ 个 danger。
+本文有 80+ 个 compatibility 和兼容性提示。
+-->
+
 !!! note
 
     额外的信息或者操作相关的提醒等。
 
 !!! caution
 
-    需要严格遵守的注意事项。不遵守caution可能导致系统故障、数据丢失、安全问题等。
+    需要严格遵守的注意事项。不遵守 caution 可能导致系统故障、数据丢失、安全问题等。
 
 !!! danger
 
