@@ -18,13 +18,13 @@ Nebula Graph支持多种类型客户端，包括CLI客户端、GUI客户端和�
 
 ### 操作步骤
 
-1. 在[Nebula Console](../reuse/console.png "the nebula-console Releases page")下载页面，确认需要的版本，单击**Assets**。
+1. 在[Nebula Console](https://github.com/vesoft-inc/nebula-console/releases "the nebula-console Releases page")下载页面，确认需要的版本，单击**Assets**。
 
   !!! Note
     
         建议选择**最新**版本。
 
-    ![Select a Nebula Graph version and click **Assets**](https://docs-cdn.nebula-graph.com.cn/docs-2.0/2.quick-start/nebula-console-releases-1.png "Click Assets to show the available Nebula Graph binary files")
+    ![Select a Nebula Graph version and click **Assets**](../reuse/console.png "Click Assets to show the available Nebula Graph binary files")
 
 2. 在**Assets**区域找到机器运行所需的二进制文件，下载文件到机器上。
 
