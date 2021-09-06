@@ -75,6 +75,7 @@ https://www.marketsandmarkets.com/Market-Reports/graph-database-market-126230231
     熟悉数据库的读者可能都知道结构化查询语言SQL。通过使用SQL，人们以接近自然语言的方式访问数据库。在 SQL 被广泛采用和标准化之前，关系型数据库的市场是非常碎片和割裂的——各家厂商的产品都有完全不同的接入访问方式，数据库产品自身的开发人员、数据库产品周边工具的开发人员、数据库最终的使用人员，都不得不学习各个厂商的完全不同的产品，在不同产品之间迁移极其困难。当1989年SQL-89标准被制定后，整个关系型数据库的市场快速收敛到SQL-89上。这大大降低了上述各种人员的学习曲线。
 
     类似的，在图数据库领域，图语言(GQL)承担了类似于SQL的作用，是一种用户与图数据库主要的交互方式。但不同于SQL-89这种国际标准，GQL还没有任何国际标准。目前有两种主流的图语言：
+
     Neo4j的Cypher (及其后续——ISO正在制定过程中的 GQL-standard 草案)和Apache TinkerPop的Gremlin。前者通常被称为声明式语言(Declarative query language)——也即用户只需要告诉系统“要什么”，而不管“怎么做”；后者通常被称为命令式语言(Imperative query language)，用户会显式地指定系统的操作。
     
     GQL国际标准正在制定过程中。
@@ -176,8 +177,6 @@ Cypher 启发了一系列后续的图查询语言，包括
 
 [^fosdem20]: https://neo4j.com/fosdem20/
 
-
-
 其语法风格大体是
 ```Cypher 
 USE graphA  # S1.1 从 Shard A 读
@@ -244,5 +243,3 @@ Oracle graph[^Oracle] 是关系型数据库巨头 Oracle 在图技术与图数�
 #### 新一代开源分布式图数据库 Nebula Graph
 
 在下一章，我们将正式介绍新一代开源分布式图数据库 Nebula Graph。
-
-

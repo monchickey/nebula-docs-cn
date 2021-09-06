@@ -6,7 +6,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
         with:
@@ -64,4 +64,8 @@ jobs:
           script: |
             mkdir -p /usr/web/nebula-docs/
             tar -xzf /usr/web/book.tar.gz -C /usr/web/nebula-docs/
-            
+      # - name: Deploy
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.DEPLOY_TOKEN }}
+      #     publish_dir: ./site
