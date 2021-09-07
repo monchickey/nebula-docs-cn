@@ -23,7 +23,7 @@ extra_css:
   - stylesheets/extra.css
 extra:
   nebula:
-    release: master
+    release: 2.5.0
     nightly: v2-nightly
     master: master
     base20: 2.0
