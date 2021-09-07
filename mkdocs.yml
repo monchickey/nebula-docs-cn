@@ -23,7 +23,7 @@ extra_css:
   - stylesheets/extra.css
 extra:
   nebula:
-    release: 2.5.0
+    release: master
     nightly: v2-nightly
     master: master
     base20: 2.0
@@ -208,6 +208,7 @@ nav:
           - ALTER TAG: 3.ngql-guide/10.tag-statements/3.alter-tag.md
           - SHOW TAGS: 3.ngql-guide/10.tag-statements/4.show-tags.md
           - DESCRIBE TAG: 3.ngql-guide/10.tag-statements/5.describe-tag.md
+          - DELETE TAG: 3.ngql-guide/10.tag-statements/6.delete-tag.md
       - Edge type语句:
           - CREATE EDGE: 3.ngql-guide/11.edge-type-statements/1.create-edge.md
           - DROP EDGE: 3.ngql-guide/11.edge-type-statements/2.drop-edge.md
@@ -443,7 +444,7 @@ plugins:
   - git-revision-date-localized
   - with-pdf:
       copyright: 2021 Vesoft Inc.
-      cover_subtitle: 2.5.0
+      cover_subtitle: master since master
       author: 吴敏，周瑶，梁振亚，杨怡璇
       cover: true
       back_cover: true
@@ -451,6 +452,7 @@ plugins:
       output_path: pdf/NebulaGraph-book.pdf
       show_anchors: true
       toc_level: 2
+      render_js: true
 
 extra_javascript:
   - js/version-select.js
