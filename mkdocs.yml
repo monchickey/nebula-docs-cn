@@ -453,6 +453,11 @@ plugins:
       show_anchors: true
       toc_level: 2
       render_js: true
+      headless_chrome_path: headless-chromium
+      enabled_if_env: ENABLE_PDF_EXPORT
+      #debug_html: true
+      #show_anchors: true
+      verbose: true
 
 extra_javascript:
   - js/version-select.js
