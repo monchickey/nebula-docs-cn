@@ -444,7 +444,7 @@ plugins:
   - git-revision-date-localized
   - with-pdf:
       copyright: 2021 Vesoft Inc.
-      cover_subtitle: master since master
+      cover_subtitle: master since 2.5.0
       author: 吴敏，周瑶，梁振亚，杨怡璇
       cover: true
       back_cover: true
