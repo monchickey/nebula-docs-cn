@@ -23,7 +23,7 @@ extra_css:
   - stylesheets/extra.css
 extra:
   nebula:
-    release: master
+    release: 2.5.0
     nightly: v2-nightly
     master: master
     base20: 2.0
@@ -444,20 +444,20 @@ plugins:
   - git-revision-date-localized
   - with-pdf:
       copyright: 2021 Vesoft Inc.
-      cover_subtitle: master since master
+      cover_subtitle: master since 2.5.0
       author: 吴敏，周瑶，梁振亚，杨怡璇
       cover: true
       back_cover: true
       cover_logo: 'https://cloud-cdn.nebula-graph.com.cn/nebula-for-pdf.png'
       output_path: pdf/NebulaGraph-book.pdf
-      show_anchors: true
       toc_level: 2
-      render_js: true
-      headless_chrome_path: headless-chromium
-      enabled_if_env: ENABLE_PDF_EXPORT
+      #show_anchors: true
+      #render_js: true
+      #headless_chrome_path: headless-chromium
+      #enabled_if_env: ENABLE_PDF_EXPORT
       #debug_html: true
       #show_anchors: true
-      verbose: true
+      #verbose: true
 
 extra_javascript:
   - js/version-select.js
