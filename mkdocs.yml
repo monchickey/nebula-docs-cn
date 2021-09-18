@@ -1,8 +1,8 @@
 site_name: Nebula Graph Database 手册
 site_description: Documentation for Nebula Graph Database
 site_author: Nebula Graph
-site_url: https://docs.nebula-graph.com.cn/
-edit_uri: 'edit/v2.5.1/docs-2.0/'
+site_url: https://docs.nebula-graph.com.cn/master/
+edit_uri: 'edit/master/docs-2.0/'
 docs_dir: docs-2.0
 
 # repository
@@ -104,6 +104,7 @@ extra:
   bench:
     release: 1.0.0
     branch: master
+
 nav:
   - PDF: ./pdf/NebulaGraph-CN.pdf
   - 前言: README.md
@@ -457,7 +458,7 @@ plugins:
   - git-revision-date-localized
   - with-pdf:
       copyright: 2021 Vesoft Inc.
-      cover_subtitle: master since 2.5.1
+      cover_subtitle: master since master
       author: 吴敏，周瑶，梁振亚，杨怡璇
       cover: true
       back_cover: true
